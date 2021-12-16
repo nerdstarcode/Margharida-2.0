@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background: #544025;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    width: 80%;
+    margin: 0% 5%;
+}
+
+header {
+    background: #230000;
+    font-family: 'Ruge Boogie', cursive;
+    font-weight: 300;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+/* Menu da página */
+nav {
+    padding-top: 5px;
+    justify-content: center;
+}
+
+nav ul {
+    justify-content: center;
+    display: flex;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin: 1% 7%;
+    color: #fff9f9;
+    
+}
+
+nav li a:hover {
+    color: khaki;
+}
+
+nav a {
+    color: #fff9f9;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 4vw;
+    text-align: center;
+}
+/* Banner da página*/
+img {
+    max-width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after{
+    clear: both;
+}
+/*Seção de cardápio*/
+section.cardapio {
+    margin: 0;
+    padding: 0;    
+}
+
+section.mapa{
+    background-color: #352415;
+    height: 212px;
+    width: 100vw;
+}
+
+section.galeria{
+    background-color: #39210C;
+    height: 212px;
+    width: 100vw;
+}
